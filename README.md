@@ -1,4 +1,4 @@
-Generate a random colors using **random-color** library.
+Generate random colors using **random-color** library.
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/boobo94/random-color?branch=main)](https://bettercodehub.com/)
 
