@@ -6,7 +6,6 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "yarn build",
     "postinstall": "yarn build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
