@@ -6,13 +6,19 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "prepare": "yarn build",
     "postinstall": "yarn build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
   "devDependencies": {
-    "typescript": "^5.0.0",
     "@types/node": "^20.0.0"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/boobo94/random-color.git"
